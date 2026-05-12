@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Dashboard | KeyJunior Solution</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="admin-body">
+    <main class="admin-shell">
+      <header class="admin-header">
+        <div>
+          <p class="eyebrow">Website dashboard</p>
+          <h1>KeyJunior Solution Admin</h1>
+        </div>
+        <a class="button secondary" href="index.html">Back to website</a>
+      </header>
+
+      <section class="admin-stats" aria-label="Website statistics">
+        <article><span>Total views</span><strong data-total-views>0</strong></article>
+        <article><span>Contact messages</span><strong data-total-contacts>0</strong></article>
+        <article><span>Comments</span><strong data-total-comments>0</strong></article>
+        <article><span>Last view</span><strong class="small-stat" data-last-view>Never</strong></article>
+      </section>
+
+      <section class="admin-grid">
+        <article class="admin-panel">
+          <div class="admin-panel-head">
+            <h2>Recent Contacts</h2>
+            <span data-contact-count>0 messages</span>
+          </div>
+          <div class="admin-list" data-contact-list></div>
+        </article>
+
+        <article class="admin-panel">
+          <div class="admin-panel-head">
+            <h2>Recent Comments</h2>
+            <span data-comment-count>0 comments</span>
+          </div>
+          <div class="admin-list" data-comment-list></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="admin.js"></script>
+  </body>
+</html>
