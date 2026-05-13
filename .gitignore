@@ -3,3 +3,9 @@ node_modules/
 .npm-cache/
 server-output.log
 server-error.log
+
+.tools/
+
+.tools
+
+node-v24.14.1-win-x64/
