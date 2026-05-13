@@ -1,5 +1,0 @@
-.env
-node_modules/
-.npm-cache/
-server-output.log
-server-error.log
